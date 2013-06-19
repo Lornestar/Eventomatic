@@ -1,0 +1,27 @@
+﻿<table>    
+	<tr>
+		<td>
+        <p>Dear FIRSTNAME,</p>
+        <p>
+        Thank you for trying the Snappay Demo.  We are planning to launch it Feb 1st.  You can sign up for early access now at <a href="http://www.snap-pay.com">www.snap-pay.com</a>.
+        
+        </p>
+        
+        </td>
+	</tr>
+	<tr>
+		<td align="right"> <table width="350px">
+			<tr valign="bottom">				
+				<td align="right">
+				<a href="http://www.snap-pay.com" target=_blank>
+			<img width="100px" src='http://www.thegroupstore.com/images/snappaylogo.jpg' />
+			</a>
+		</td>
+			</tr>			
+            <tr>
+		<td colspan="2" align="right" style="font-size:smaller; color:#0000FF;">
+		    Got a question? We're happy to help. (888) 908 2870</td>
+	</tr>
+		</table></td>		
+	</tr>	
+</table>

@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap>
+  <siteMapNode title="My Events" url="Default.aspx">    
+    <siteMapNode title="Create New Event" url="Edit_Event.aspx">
+    </siteMapNode>
+    <siteMapNode title="Group">
+      <siteMapNode title="Group Settings" url="Profile.aspx">
+      </siteMapNode>
+      <siteMapNode title="Group Administrators" url="Group_Members.aspx">
+      </siteMapNode>
+    </siteMapNode>    
+    <siteMapNode title="Help" url="Help.aspx">
+      <siteMapNode title="How to Videos" url="How_To.aspx">
+      </siteMapNode>
+      <siteMapNode title="FAQs" url="FAQs.aspx">
+      </siteMapNode>
+    </siteMapNode>
+    <siteMapNode title="About Us" url="AboutUs.aspx">
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

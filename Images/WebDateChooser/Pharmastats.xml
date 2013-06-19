@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--<PresetInfo PresetName="Pharmastats" PresetDescription="Pharmastats" PresetType="All" />-->
+<igsch:WebDateChooser ShowDropDown="True">
+  <DropButton ImageUrl1="../images/datePickerImage.gif">
+    <HoverStyle />
+  </DropButton>
+  <CalendarLayout PrevMonthImageUrl="../images/ig_cal_blueP0.gif" TitleFormat="Month" NextMonthImageUrl="../images/ig_cal_blueN0.gif" ShowYearDropDown="False" ShowMonthDropDown="False">
+    <TodayDayStyle BackColor="#97B0F0" />
+    <FooterStyle BackgroundImage="ig_cal_blue2.gif" ForeColor="#505080" Height="16pt" Font-Size="8pt">
+      <BorderDetails ColorTop="LightSteelBlue" WidthTop="1px" StyleTop="Solid" />
+    </FooterStyle>
+    <SelectedDayStyle BackColor="SteelBlue" />
+    <DayStyle BackColor="#7AA7E0" />
+    <NextPrevStyle BackgroundImage="../images/ig_cal_blue1.gif" />
+    <OtherMonthDayStyle ForeColor="SlateGray" />
+    <DayHeaderStyle ForeColor="#606090" BackColor="#7AA7E0" Height="1pt" Font-Size="8pt" Font-Bold="True">
+      <BorderDetails StyleBottom="Solid" WidthBottom="1px" ColorBottom="LightSteelBlue" />
+    </DayHeaderStyle>
+    <TitleStyle BackgroundImage="ig_cal_blue1.gif" ForeColor="#505080" BackColor="#7AA7E0" Height="18pt" Font-Size="10pt" Font-Bold="True" />
+    <CalendarStyle BorderStyle="Solid" BorderWidth="1px" BorderColor="SteelBlue" BackColor="#E0EEFF" Font-Size="9pt" Font-Names="Verdana" />
+  </CalendarLayout>
+</igsch:WebDateChooser>

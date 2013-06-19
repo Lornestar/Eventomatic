@@ -1,0 +1,42 @@
+﻿03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+03 Dec 2011 16:03:19 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+03 Dec 2011 16:03:19 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+03 Dec 2011 16:03:19 DEBUG [Config] TrustAll :True
+03 Dec 2011 16:03:19 DEBUG [Config] Endpoints loaded :12
+03 Dec 2011 16:03:21 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+03 Dec 2011 16:03:21 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+03 Dec 2011 16:03:21 INFO  [SOAPAPICaller] DoDirectPayment sent
+03 Dec 2011 16:03:29 INFO  [SOAPAPICaller] DoDirectPayment Ack : SuccessWithWarning Elapsed Time : 726 ms
+03 Dec 2011 16:03:29 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction was approved. However, the Card Security Code provided had too few, too many, or invalid character types but, as per your account option settings, was not required in the approval process.
+03 Dec 2011 16:03:29 INFO  [SOAPAPICaller] DoCapture sent
+03 Dec 2011 16:03:37 INFO  [SOAPAPICaller] DoCapture Ack : Success Elapsed Time : 373 ms
+03 Dec 2011 16:03:55 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+03 Dec 2011 16:03:55 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+03 Dec 2011 16:04:10 INFO  [SOAPAPICaller] DoDirectPayment sent
+03 Dec 2011 16:04:16 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 522 ms
+03 Dec 2011 16:04:16 INFO  [SOAPAPICaller] DoCapture sent
+03 Dec 2011 16:04:25 INFO  [SOAPAPICaller] DoCapture Ack : Success Elapsed Time : 697 ms
+03 Dec 2011 16:05:01 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+03 Dec 2011 16:05:01 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+03 Dec 2011 16:09:26 INFO  [SOAPAPICaller] DoDirectPayment sent
+03 Dec 2011 16:09:32 INFO  [SOAPAPICaller] DoDirectPayment Ack : SuccessWithWarning Elapsed Time : 570 ms
+03 Dec 2011 16:09:32 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction was approved. However, the Card Security Code provided had too few, too many, or invalid character types but, as per your account option settings, was not required in the approval process.
+03 Dec 2011 16:09:32 INFO  [SOAPAPICaller] DoCapture sent
+03 Dec 2011 16:09:40 INFO  [SOAPAPICaller] DoCapture Ack : Success Elapsed Time : 987 ms
+03 Dec 2011 16:10:13 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+03 Dec 2011 16:10:13 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+03 Dec 2011 16:10:38 INFO  [SOAPAPICaller] DoDirectPayment sent
+03 Dec 2011 16:10:45 INFO  [SOAPAPICaller] DoDirectPayment Ack : SuccessWithWarning Elapsed Time : 840 ms
+03 Dec 2011 16:10:45 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction was approved. However, the Card Security Code provided had too few, too many, or invalid character types but, as per your account option settings, was not required in the approval process.
+03 Dec 2011 16:10:45 INFO  [SOAPAPICaller] DoCapture sent
+03 Dec 2011 16:10:53 INFO  [SOAPAPICaller] DoCapture Ack : Success Elapsed Time : 55 ms

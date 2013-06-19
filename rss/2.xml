@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>Groupstore Rss</title>
+    <description>Groupstore Rss</description>
+    <link>http://www.thegroupstore.com/</link>
+    <pubDate>Thu, 24 Mar 2011 02:10:43 GMT</pubDate>
+    <docs>http://backend.userland.com/rss</docs>
+    <generator>RSS.NET: http://www.rssdotnet.com/</generator>
+    <item>
+      <title>McMaster JSA Alumni Dinner</title>
+      <description>You are invited to join us for the JSA Alumni Community's inaugural dinner!</description>
+      <link>http://www.thegroupstore.com/Order_Form.aspx?Event_Key=290</link>
+      <comments>http://www.theGroupstore.com/Images/Events/290.jpg</comments>
+      <pubDate>Mon, 18 Apr 2011 20:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Crave It, official book launch</title>
+      <description>Please join Red Claw Press for the launch of "Crave It- Writers and Artists</description>
+      <link>http://www.thegroupstore.com/Order_Form.aspx?Event_Key=293</link>
+      <comments>http://www.theGroupstore.com/Images/Events/293.jpg</comments>
+      <pubDate>Thu, 05 May 2011 19:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

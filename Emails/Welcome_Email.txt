@@ -1,0 +1,30 @@
+﻿<table>
+    <tr>
+        <td>Dear FBUSER_NAME,</td>
+    </tr>    
+    <tr>
+        <td>Thank you for trying Groupstore.  </td>
+    </tr>
+    <tr>
+        <td>Please note that in order to start selling you need to have either a PayPal Verified Premiere account, or a PayPal Verified Business account.  The Premiere account is free to setup.
+        <br />
+        <a href="http://promo.thegroupstore.com/FAQs.aspx" target=_blank>Click here to learn more about setting up your PayPal account.</a></td>   
+    </tr>
+    <tr>
+        <td>Feel free to contact our customer support team with any questions you may have,</td>   
+    </tr>
+    <tr>
+        <td>Thanks,<br />Groupstore</td>
+    </tr>
+    <tr>
+		<td align="right"> <table width="250px">
+			<tr valign="bottom">				
+				<td align="right">
+				<a href="http://www.thegroupstore.com" target=_blank>
+			<img width="100px" src='http://app.thegroupstore.com/images/groupstore_Order_Logo2.png' />
+			</a>
+		</td>
+			</tr>			
+		</table></td>		
+	</tr>	
+</table>

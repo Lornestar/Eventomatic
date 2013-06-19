@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>Groupstore Rss</title>
+    <description>Groupstore Rss</description>
+    <link>http://www.thegroupstore.com/</link>
+    <pubDate>Thu, 30 Dec 2010 22:58:16 GMT</pubDate>
+    <docs>http://backend.userland.com/rss</docs>
+    <generator>RSS.NET: http://www.rssdotnet.com/</generator>
+    <item>
+      <title>Test Groupstore event 2</title>
+      <link>http://www.thegroupstore.com/Order_Form.aspx?Event_Key=69</link>
+      <comments>http://www.theGroupstore.com/Images/Events/No_Image.jpg</comments>
+      <pubDate>Thu, 22 Jul 2010 02:00:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>

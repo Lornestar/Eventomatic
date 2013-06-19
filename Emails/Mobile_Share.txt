@@ -1,0 +1,33 @@
+﻿<table>
+	<tr>
+		<td><div style="margin-left:15px;max-width:500px;"><p>SELLERNAME has initiated the sale of event tickets to you.
+ </p>
+ <p>
+ To complete this sale, make a payment at the following link:
+ <br />
+ <a href="CHECKOUTURL">CHECKOUTURL</a>
+ </p>
+ <p>
+ Thank you for using Groupstore,<br />
+ The Groupstore Team      </p>
+         </td>
+	</tr>		
+	<tr>
+		<td align="right"> <table width="350px">
+			<tr valign="bottom">				
+				<td align="right">
+				<a href="http://www.thegroupstore.com" target=_blank>
+			<img width="100px" src='http://www.thegroupstore.com/images/groupstore_Order_Logo2.png' />
+			</a>
+		</td>
+			</tr>
+			<tr>
+		<td colspan="2" align="right" style="font-size:smaller; color:#0000FF;">
+		    Do you run events?<br /> Start Selling your event online in minutes with 
+            Groupstore.</td>
+	</tr>
+		</table></td>		
+	</tr>	
+</table>
+
+

@@ -1,0 +1,488 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Eventomatic.Site" %>
+    
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://www.facebook.com/2008/fbml" >
+
+<head runat=server>
+    <title>GroupStore</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="Eventomatic.css" media="screen" rel="stylesheet" type="text/css" />  
+    <link href="Eventomatic_Stores.css" media="screen" rel="stylesheet" type="text/css" />   
+    <link REL="SHORTCUT ICON" HREF="http://www.thegroupstore.com/favicon.ico"/>
+    <script src="/Addons/meteora/meteora.js" type="text/javascript"></script>
+    <script src="/Addons/DateTools.js" type="text/javascript"></script>
+    <script type="text/javascript" src="Scripts.js"></script>         
+    <link href="/images/Menu.Purple.css" media="screen" rel="stylesheet" type="text/css" />  
+
+    
+<!--http://ingig.net/weblog/2010/04/21/using-graph-api-to-post-status-update-with-c/
+    [if lt IE 7]>
+<style type="text/css" media="screen">
+#menuh{float:none;}
+body{behavior:url(csshover.htc); font-size:100%;}
+#menuh ul li{float:left; width: 100%;}
+#menuh a{height:1%;font:bold 0.7em/1.4em arial, sans-serif;}
+</style>
+<![endif]-->
+
+</head>
+<body onload="CheckCanvas(true)">
+<!-- Note: Include this div markup as a workaround for a known bug in this release on IE where you may get a "operation aborted" error  
+<div id="FB_HiddenIFrameContainer" style="display:none; position:absolute; left:-100px; top:-100px; width:0px; height: 0px;"></div> 
+<script src="http://static.ak.facebook.com/js/api_lib/v0.4/FeatureLoader.js.php" type="text/javascript">
+</script> -->
+
+<script type="text/javascript">
+ 
+function CheckCanvas(fromsite){
+/*
+//alert(document.getElementById('ctl00_hdCanvasSize').value+' '+fromsite);
+FB_RequireFeatures(["CanvasUtil"], function(){ 
+    
+    //alert(document.getElementById('ctl00_hdCanvasSize').value+' '+fromsite);
+    if (document.getElementById('ctl00_hdCanvasSize').value == "0"){
+       FB.XdComm.Server.init("/Addons/xd_receiver.htm"); 
+        FB.CanvasClient.startTimerToSizeToContent();         
+        
+    }
+    else{
+        FB.XdComm.Server.init("/Addons/xd_receiver.htm"); 
+        
+        FB.CanvasClient.getCanvasInfo(function(info){
+        var h = parseInt(info.canvas.h);        
+        
+        //if ((h < 580)&&(fromsite == false)){
+        //if (document.getElementById('ctl00_hdCanvasSize').value != "0")
+        if (h < document.getElementById('ctl00_hdCanvasSize').value){
+            FB.CanvasClient.stopTimerToSizeToContent();
+            FB.CanvasClient.setCanvasHeight(document.getElementById('ctl00_hdCanvasSize').value+"px");            
+            //FB.CanvasClient.startTimerToSizeToContent();
+            //alert('here');
+        }        
+        });
+    }
+        
+    });*/
+}
+
+ 
+     </script>         
+<asp:Label ID=lblurl runat=server Visible=false></asp:Label>
+<asp:SiteMapDataSource ID="SiteMapDataSource1" Runat="server" SiteMapProvider="SiteMap"/>
+<asp:SiteMapDataSource ID="SiteMapDataSource2" Runat="server" SiteMapProvider="Admin"/>
+
+    <form id="form1" runat="server">
+    <asp:HiddenField ID=hdCanvasSize runat=server Value="0" />
+    <asp:HiddenField ID=hdAppLocation runat=server Value="x" />
+    <asp:HiddenField ID=hdfbid runat=server Value="" />
+    <asp:HiddenField ID=hdresourcekey runat=server Value="" />
+    <table style="width:100%;">
+    <tr><td>
+    <center>
+    <table width=720px>
+        <tr>
+            <td>
+            <asp:Panel ID=pnlNavbarseller runat=server Visible=false>
+                
+            <table class="Navbar" width=100%>
+                <tr>
+                    <td>
+                    <div class="GroupStoreLogo_Navbar"></div>
+                    </td>
+                    <td align=right>
+                    <a style="color:White;" href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Firsttime.aspx" target="_top" class="top_parent">Open a new<br />Groupstore</a>
+                    </td>
+                    <td align=right>
+                    <a style="color:White;" href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Referral.aspx" target="_top" class="top_parent">Refer a Friend</a>
+                    </td>
+                    <td width=50%>&nbsp;</td>
+                </tr>
+            </table>            
+            </asp:Panel>
+            </td>    
+        </tr>
+        <tr>
+            <td>
+            <asp:Panel ID=pnlNavbar runat=server>            
+            <span id=spnNavbar>
+                <table width=100% style="background-color:#30004C;" >                   
+                    <tr valign=top>
+                        <td>                        
+
+                        
+            <asp:Menu ID="Menu1" Runat="server" Orientation="Horizontal" StaticDisplayLevels="2" Visible=false>
+                                    <StaticMenuItemStyle BackColor="Transparent" Font-Size="9pt" HorizontalPadding="0px" ItemSpacing="10px" />
+                                    <DynamicMenuStyle BorderColor="#E0E0E0" BorderStyle="Solid" BorderWidth="1px" HorizontalPadding="20px" />
+                                    <DynamicMenuItemStyle BackColor="Transparent" BorderColor="Transparent" Font-Size="9pt" ForeColor="#404040" ItemSpacing="5px" />
+                                    <DynamicHoverStyle BackColor=#EEEEEE Width=100% />
+                                    <StaticSelectedStyle BackColor="Transparent" />
+                                 </asp:Menu>             
+                                
+           <!--  <a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Default.aspx" target="_top"  ><div class="GroupStoreLogo_Navbar"></div></a>
+           
+            <a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Default.aspx" target="_top"  >
+            <img src="Images/sellitall_logo_header.jpg" style="border:0;"/></a>-->
+            </td>
+            <td style="vertical-align:top;">
+            <div id="menuh-container" style=" display:none;">
+<div id="menuh">
+<ul>
+		<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Default.aspx" target="_top" class="top_parent">My events</a>
+		</li>
+	</ul>
+	<ul>
+		<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Settings.aspx" target="_top" class="parent">Settings</a>
+		</li>
+	</ul>
+	<ul>	
+		<li><a href="" class="top_parent">Actions</a>
+				<ul>
+			<li><asp:Label ID=lblSellEvent runat=server></asp:Label></li>			
+			<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Rss_get.aspx" target="_top" class="parent">Get RSS Feed</a></li>						
+			<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>FirstTime.aspx" target="_top" class="parent">Open New Groupstore</a></li>
+		</ul>
+		</li>
+	</ul>
+	
+	<ul>	
+		<li><asp:Panel runat=server ID="pnlAdmin" Visible=false><a href="" class="top_parent">Admin</a>
+				<ul>
+			<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Admin/Service_Fees.aspx" target="_top" class="parent">Service Fees</a></li>
+			<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Admin/Admins.aspx" target="_top" class="parent">Admins</a>	</li>	
+			<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Reporting.aspx" target="_top" class="parent">Reporting</a></li>
+		</ul>
+		</asp:Panel>
+		</li>
+	</ul>
+	
+		<ul>	
+		<li><a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>AboutUs.aspx" target="_top" class="top_parent">Help</a>
+				<ul>			
+			<li><a href="http://promo.thegroupstore.com/FAQs.aspx" target="_blank" class="parent">FAQs</a>
+			</li>
+		<li><a href="http://www.thegroupstore.com/Event_Host_TOS.htm" target="_blank" class="parent">Terms of Service</a></li>
+		</ul>
+		</li>
+	</ul>	
+	</div>
+	</div>
+    <telerik:RadMenu ID="RadMenu1" runat="server" Width="410" EnableRoundedCorners="true" EnableShadows="true" EnableEmbeddedSkins=false Skin="Purple">
+                <Items>           
+                    <telerik:RadMenuItem ImageUrl="/Images/groupstore_Order_Logo2_Navbar.png" NavigateUrl="Default.aspx" Target="_top">                        
+                    </telerik:RadMenuItem>        
+                    <telerik:RadMenuItem Text="My Events" NavigateUrl="Default.aspx" Target="_top">                    
+                    </telerik:RadMenuItem> 
+                    <telerik:RadMenuItem Text="Settings" NavigateUrl="Settings.aspx" Target="_top">
+                    </telerik:RadMenuItem>                    
+                    <telerik:RadMenuItem Text="Actions">
+                        <Items>
+                            <telerik:RadMenuItem Text="Sell Event"/>
+                            <telerik:RadMenuItem Text="Get RSS Feed" NavigateUrl="Rss_get.aspx" Target="_top"/>
+                            <telerik:RadMenuItem Text="Open New Groupstore" NavigateUrl="FirstTime.aspx" Target="_top"/>
+                            <telerik:RadMenuItem Text="Sell Tickets on Fan Page" Target="_top"/>
+                        </Items>
+                    </telerik:RadMenuItem>                    
+                    <telerik:RadMenuItem Text="Admin" Visible=false>
+                        <Items>
+                            <telerik:RadMenuItem Text="Service Fees" NavigateUrl="Admin/Service_Fees.aspx" Target="_top"/>
+                            <telerik:RadMenuItem Text="Admins" NavigateUrl="Admin/Admins.aspx" Target="_top"/>
+                            <telerik:RadMenuItem Text="Reporting" NavigateUrl="Reporting.aspx" Target="_top"/>                            
+                        </Items>
+                    </telerik:RadMenuItem>
+                    <telerik:RadMenuItem Text="Help" NavigateUrl="Aboutus.aspx" Target="_top">                   
+                    </telerik:RadMenuItem>        
+                    <telerik:RadMenuItem ImageUrl="/images/fblogout.png" onclick="fblogout(); return false;" NavigateUrl="#" Visible=false>
+                    </telerik:RadMenuItem>                                        
+                </Items>                               
+            </telerik:RadMenu>
+            </td>
+            <td style="vertical-align:top; width:250px;background-color:#30004C; color:White;">
+            <div style="float:right;">
+             
+                <table class="Select_Group" >
+                <tr>                    
+                    <td><asp:Label ID=lblSeparator runat=server Visible=false>|&nbsp;</asp:Label></td>
+                    <td><asp:Label ID=lblGroups runat=server>Select Group:</asp:Label></td>
+                    <td>
+                    <telerik:RadComboBox ID=ddlgroups runat=server Width="100px" AutoPostBack="true" OnSelectedIndexChanged="ddlgroups_SelectedIndexChanged"/></td>
+                    <td><asp:Image ID=imgLogo runat=server Visible=false Height=24px /></td>
+                </tr>
+                </table>
+             
+            </div>
+            </td>
+                    </tr>
+                </table>
+                </span>
+                </asp:Panel>
+            </td>
+            
+        </tr>
+    <tr>
+        <td>
+    <div>
+    <telerik:RadScriptManager ID="ScriptManager" runat="server" />            
+        <telerik:RadCodeBlock runat="server" ID="RadCodeBlock1">            
+        </telerik:RadCodeBlock>        
+        
+        <telerik:RadWindowManager ID="RadWindowManager1" ShowContentDuringLoad="false" VisibleStatusbar="false"
+        ReloadOnShow="true" runat="server" Skin="Windows7" EnableShadow="true">
+        <Windows>
+            <telerik:RadWindow ID="RadWindow1" runat="server" OnClientClose="OnClientClose"
+                NavigateUrl="addons/FacebookEvents.aspx" Title="Facebook Events" Behaviors="Close">
+            </telerik:RadWindow>            
+            <telerik:RadWindow ID="Tickets2" runat="server" OnClientClose="OnClientCloseTickets"
+                NavigateUrl="addons/Tickets2.aspx" Title="Edit Tickets" Behaviors="Close" >
+            </telerik:RadWindow>            
+            <telerik:RadWindow ID="Questions2" runat="server" OnClientClose="OnClientCloseQuestions"
+                NavigateUrl="addons/Questions2.aspx" Title="Edit Questions" Behaviors="Close" >
+            </telerik:RadWindow>            
+            <telerik:RadWindow ID="ResendTickets" runat="server" OnClientClose="OnClientCloseResendTickets"
+                NavigateUrl="addons/ResendTickets.aspx" Title="Resend eticket" Behaviors="Close" >
+            </telerik:RadWindow>            
+        </Windows>
+    </telerik:RadWindowManager>
+
+    <asp:HiddenField ID=hdnFirstTime runat=server Value=0 />
+        <asp:ContentPlaceHolder ID="body" runat="server">
+        
+        </asp:ContentPlaceHolder>        
+        
+    </div>
+    </td>
+    </tr>
+    <tr>
+        <td><hr /></td>
+    </tr>
+    <tr>
+        <td align="center"><asp:Label ID=lblDemo runat="Server"></asp:Label></td>
+    </tr>
+    <tr>
+        <td align="center"><a href=mailto:info@theGroupstore.com>info@theGroupstore.com</a></td>
+    </tr>
+    <tr>
+        <td align="center"><div id="thebottom">© Copyright Groupstore 2010</div></td>
+    </tr>
+    </table>
+    </center>
+    </td>
+    </tr>
+    </table>
+    
+ <!--Import Events part-->
+<div id="ImportFB" class="QuestionPopup">
+
+</div>
+<div id="ImportFB2" class="QuestionPopup2">
+<center>
+<table>
+    <tr>
+        <td class="QuestionPopupHeader"><table width=100%>
+            <tr>
+                <td align=left>Sell Event</td>
+                <td align=right><a href="#" onclick="closepopup4()"><img src="/images/QuestionsBoxClose.jpg" style="border:0;" /></a></td>
+                
+            </tr>
+        </table></td>        
+    </tr>
+    <tr>
+        <td colspan="2">
+        <asp:Label ID="lblNoImport" runat=server Visible=false>There are currently no Facebook Events that you are administrating.</asp:Label>
+        <asp:Panel ID=pnlImport runat=server >
+        <table>
+            <tr>
+                <td align=right>
+                <div style="font-size:smaller;">
+                <a href="<%= ConfigurationSettings.AppSettings["Root_URL"] %>Edit_Event.aspx" target="_top" class="parent">Click here to sell an event not in the list</a>
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                
+                <igtbl:UltraWebGrid ID="UltraWebGrid1" runat="server">
+        <Bands>
+            <igtbl:UltraGridBand>
+                <Columns>
+                    <igtbl:UltraGridColumn BaseColumnName="creator" Hidden="True">
+                        <Header Caption="Creator">
+                        </Header>
+                    </igtbl:UltraGridColumn>
+                    <igtbl:UltraGridColumn BaseColumnName="name" Key="EventID">
+                        <Header Caption="Event">
+                            <RowLayoutColumnInfo OriginX="1" />
+                        </Header>
+                        <Footer>
+                            <RowLayoutColumnInfo OriginX="1" />
+                        </Footer>
+                    </igtbl:UltraGridColumn>
+                    <igtbl:UltraGridColumn BaseColumnName="start_time">
+                        <Header Caption="Start Time">
+                            <RowLayoutColumnInfo OriginX="2" />
+                        </Header>
+                        <Footer>
+                            <RowLayoutColumnInfo OriginX="2" />
+                        </Footer>
+                    </igtbl:UltraGridColumn>
+                    <igtbl:UltraGridColumn>
+                        <Header>
+                            <RowLayoutColumnInfo OriginX="3" />
+                        </Header>
+                        <Footer>
+                            <RowLayoutColumnInfo OriginX="3" />
+                        </Footer>
+                    </igtbl:UltraGridColumn>
+                    <igtbl:UltraGridColumn BaseColumnName="eid" Hidden="True">
+                        <Header Caption="eid">
+                            <RowLayoutColumnInfo OriginX="4" />
+                        </Header>
+                        <Footer>
+                            <RowLayoutColumnInfo OriginX="4" />
+                        </Footer>
+                    </igtbl:UltraGridColumn>
+                </Columns>
+                <RowEditTemplate>
+                    <br>
+                        <p align="center">
+                            <input id="igtbl_reOkBtn" onclick="igtbl_gRowEditButtonClick(event);" 
+                                style="width:50px;" type="button" value="OK">
+                                &nbsp;
+                                <input id="igtbl_reCancelBtn" onclick="igtbl_gRowEditButtonClick(event);" 
+                                    style="width:50px;" type="button" value="Cancel">
+                                </input>
+                            </input>
+                        </p>
+                    </br>
+                </RowEditTemplate>
+                <RowTemplateStyle BackColor="Window" BorderColor="Window" BorderStyle="Ridge">
+                    <BorderDetails WidthBottom="3px" WidthLeft="3px" WidthRight="3px" 
+                        WidthTop="3px" />
+                </RowTemplateStyle>
+                <AddNewRow View="NotSet" Visible="NotSet">
+                </AddNewRow>
+            </igtbl:UltraGridBand>
+        </Bands>
+        <DisplayLayout AutoGenerateColumns="False" Name="UltraWebGrid1" ColHeadersVisibleDefault=No
+            RowSelectorsDefault="No" StationaryMarginsOutlookGroupBy="True" Version="4.00">
+            <FrameStyle BorderColor="#999999" BorderStyle="None" BorderWidth="3px" 
+                Cursor="Default" >
+            </FrameStyle>
+            <RowAlternateStyleDefault BackColor="#FFFFFF">
+                <BorderDetails ColorLeft="233, 233, 247" ColorTop="233, 233, 247" />
+            </RowAlternateStyleDefault>
+            <HeaderStyleDefault  BackColor="#410067" BorderColor="Black" BorderStyle="Solid" 
+                ForeColor="White">
+                <BorderDetails ColorLeft="White" ColorTop="White" WidthLeft="1px" 
+                    WidthTop="1px" />
+            </HeaderStyleDefault>
+            <RowStyleDefault BackColor="#FFFFFF" BorderColor="Gray" BorderStyle="None" 
+                BorderWidth="1px">
+                <Padding Left="3px" />
+                <BorderDetails ColorLeft="199, 213, 232" ColorTop="199, 213, 232" />
+            </RowStyleDefault>
+            <SelectedRowStyleDefault BackColor="#0A75F0" ForeColor="White">
+            </SelectedRowStyleDefault>
+            <ActivationObject BorderColor="Black" BorderStyle="Dotted" BorderWidth="">
+            </ActivationObject>
+            <FilterOptionsDefault>
+                <FilterDropDownStyle BackColor="White" BorderColor="Silver" BorderStyle="Solid" 
+                    BorderWidth="1px" CustomRules="overflow:auto;" 
+                    Font-Names="Verdana,Arial,Helvetica,sans-serif" Font-Size="11px" Width="200px">
+                    <Padding Left="2px" />
+                </FilterDropDownStyle>
+                <FilterHighlightRowStyle BackColor="#151C55" ForeColor="White">
+                </FilterHighlightRowStyle>
+                <FilterOperandDropDownStyle BackColor="White" BorderColor="Silver" 
+                    BorderStyle="Solid" BorderWidth="1px" CustomRules="overflow:auto;" 
+                    Font-Names="Verdana,Arial,Helvetica,sans-serif" Font-Size="11px">
+                    <Padding Left="2px" />
+                </FilterOperandDropDownStyle>
+            </FilterOptionsDefault>
+        </DisplayLayout>
+    </igtbl:UltraWebGrid>
+                </td>
+            </tr>
+        </table>         
+    
+    </asp:Panel>
+    </td>
+    </tr>
+    <tr>
+        <td class="QuestionPopupFooter"></td>
+    </tr>
+</table>
+</center>
+</div>
+
+
+<!--Import Events part-->
+<div id="fb-root"></div>
+<script type="text/javascript">
+    //FB.init("<%= ConfigurationSettings.AppSettings["APIKey"] %>", "/Addons/xd_receiver.htm");
+function X(obj) {
+var x = obj.offsetTop;
+while (obj = obj.offsetParent) x += obj.offsetTop
+return x
+}
+var theheight = X(document.getElementById('thebottom'));
+theheight = theheight + 100;
+if (theheight < 800)
+{
+   theheight = 800;
+}
+ 
+  window.fbAsyncInit = function() {
+    FB.init({appId: "<%= ConfigurationSettings.AppSettings["APIKey"] %>", status: true, cookie: true,
+             xfbml: true});
+             
+    FB.Canvas.setSize({ width: 760, height: theheight }); // Live in the past
+  };
+  
+  (function() {
+    var e = document.createElement('script'); e.async = true;
+    e.src = document.location.protocol +
+      '//connect.facebook.net/en_US/all.js';
+    document.getElementById('fb-root').appendChild(e);
+  }());
+
+function fblogout(){
+//alert('loggingout');
+FB.logout(function(response) {
+  // user is now logged out    
+});
+window.location = "<%= ConfigurationSettings.AppSettings["LoggedOut_URL"] %>";
+
+}
+
+ function onMenuClicked(sender, eventArgs)
+        {
+            var menutext = eventArgs.get_item().get_text();
+            if (menutext == 'Sell Event')
+            {                
+                //alert(document.getElementById('ctl00_hdSellEvent').value);
+                openWin(document.getElementById('ctl00_hdfbid').value,document.getElementById('ctl00_hdresourcekey').value,1,document.getElementById('ctl00_hdAppLocation').value);
+            }
+        }
+
+function fbpages_app_add(a){var b=new AsyncRequest().setURI('/ajax/apps/show_profile_add_dialog.php').setMethod('GET').setReadOnly(true).setData({profile_id:a});new Dialog().setAsync(b).show();return false;}function fbpages_app_on_add(c){var d=new URI('/ajax/apps/add_to_profile.php');var a={profile_id:c.profile_id,target_profile_id:c.id};var b=function(){ObjectBrowserController.getController(c.element).removeItem(c.id);};new AsyncRequest().setURI(d).setMethod('POST').setData(a).setHandler(b).send();}function pages_change_block_wording(a){hide('block_'+a);}
+</script>
+    </form>
+
+    <script type="text/javascript">
+        var GoSquared = {};
+        GoSquared.acct = "GSN-105322-Y";
+        (function (w) {
+            function gs() {
+                w._gstc_lt = +(new Date); var d = document;
+                var g = d.createElement("script"); g.type = "text/javascript"; g.async = true; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";
+                var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s);
+            }
+            w.addEventListener ? w.addEventListener("load", gs, false) : w.attachEvent("onload", gs);
+        })(window);
+
+</script>
+
+
+</body>
+</html>

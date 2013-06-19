@@ -1,0 +1,564 @@
+﻿body
+{
+    font-family:Arial;
+    font-size:small;
+    text-align:left;
+}
+
+td
+{
+    text-align:left;
+}
+
+a:link 
+{
+    color:Navy;
+     text-decoration:none;
+    }      /* unvisited link */
+a:visited {
+    color:Navy;
+    text-decoration:none;
+    }  /* visited link */
+a:hover {
+    color:Navy;
+    text-decoration:underline;
+    }  /* mouse over link */
+a:active {
+    color:Navy;
+    text-decoration:none;
+    }  /* selected link */
+
+@font-face {  
+   font-family: Ashley;  
+   src: url(/Images/Ashley.ttf);  
+   font-weight: bold;  
+ } 
+ 
+.it
+{
+    color:Red;
+    font-style:italic;
+    font-weight:bold;
+}
+.SellAll
+{
+    color:Black;
+    font-weight:bold;
+    }
+ 
+.Ashley
+{
+    font-family:Ashley;
+    font-weight:bolder;
+}
+
+.Navbar{
+    /*background-image:url(/Images/nav_bg_bar.jpg);*/
+    background-color:#410067;
+    background-repeat:repeat-x;
+    height:42px;
+    }
+
+.GroupStoreLogo_Navbar
+{
+    background: transparent url(/images/groupstore_Navbar_Logo.png) no-repeat scroll 0 0;                   
+    width:60px;
+    height:40px; 
+}
+#menuh-container
+	{
+	/*position: absolute;			
+	left:15px;
+    top:15px;
+    background-image:url(/Images/sellitall_logo_header.jpg);
+    background-repeat:no-repeat;
+    height:62px;*/    
+	}
+
+#menuh
+	{
+	font-size: smaller;
+	font-family: arial, helvetica, sans-serif;	
+	text-align:center;		
+	/*font-weight:bold;
+	 background-image:url(/Images/nav_bg.jpg);
+	background-color:Aqua;
+	 margin-left:30px;*/
+	 
+	
+	}
+
+#menuh a
+	{
+	text-align: center;
+	display:block;
+	padding-left:15px;
+	padding-right:15px;	
+	/*border: 1px solid #555;
+	white-space:nowrap;
+	margin:0;	
+	padding-left:8px;
+	padding-right:8px;
+background-image:url(/Images/nav_bg.jpg);*/
+	height:40px;
+			
+	vertical-align:bottom;
+	}
+	
+#menuh a:link, #menuh a:visited, #menuh a:active	/* menu at rest */
+	{	    
+	color: white;
+	/*background-image:url(/Images/nav_bg.jpg);*/
+	background-color:#410067;
+	background-repeat:repeat-x;
+	text-decoration:none;
+	font-weight:bolder;
+	/*width:60px*/
+	}
+	
+#menuh a:hover						/* menu on mouse-over  */
+	{
+	color: white;
+	background-color:Navy;
+	text-decoration:none;
+	}	
+
+#menuh a.top_parent, #Navbar_Items a.parent  /* attaches down-arrow to all top-parents */
+	{
+	    /*width:60px;*/
+	color: white;
+	/*background-image:url(/Images/nav_bg.jpg);*/
+	text-decoration:none;
+	font-weight:bold;	
+	}
+	
+#menuh a.top_parent:hover, #menuh a.parent:hover 	/* attaches side-arrow to all parents */
+	{
+	background-color:#30004C;
+	background-position: right center;
+	background-repeat: no-repeat;
+	}
+.Navbar .Select_Group
+{
+    height:30px;
+    width:200px;
+    /*border: 1px solid #555;*/
+    color:White;
+    white-space:nowrap;
+}
+
+
+#menuh ul
+	{
+	list-style:none;
+	margin:0;
+	padding:0;
+	float:left;
+			 
+	 /*width of all menu boxes */
+	/* NOTE: For adjustable menu boxes you can comment out the above width rule.
+	However, you will have to add padding in the "#menh a" rule so that the menu boxes
+	will have space on either side of the text -- try it */
+	}
+
+#menuh li
+	{
+	    
+	position:relative;
+	min-height: 1px;		
+	vertical-align: bottom;		
+	}
+
+#menuh ul ul
+	{
+	position:absolute;
+	z-index:500;
+	top:auto;
+	display:none;
+	padding: 1em;
+	margin:-1em 0 0 -1em;
+	opacity:0.9;filter:alpha(opacity=90);
+	}
+
+#menuh ul ul ul
+	{
+	top:0;
+	left:100%;
+	}
+
+div#menuh li:hover
+	{
+	cursor:pointer;
+	z-index:100;
+	
+	}
+
+div#menuh li:hover ul ul,
+div#menuh li li:hover ul ul,
+div#menuh li li li:hover ul ul,
+div#menuh li li li li:hover ul ul
+{display:none; }
+
+div#menuh li:hover ul,
+div#menuh li li:hover ul,
+div#menuh li li li:hover ul,
+div#menuh li li li li:hover ul
+{display:block;}
+
+/* End CSS Drop Down Menu */
+.ExportExcelButton, a.ExportExcelButton
+ { background-image: url(/Images/button_bg2.jpg);
+	float:left;
+	width:100px;
+	background-repeat: no-repeat;
+	line-height: 28px;
+	color:White;
+	 text-align:center;
+	 text-decoration:none;
+	 font-weight:bold;
+	 font-size:small;
+     }
+     
+     .UploadImageArea
+     {
+         border-width:thin; 
+         border-style:solid;
+         background-color:Gray;
+     }
+     
+ /* Progress Bar */
+ .ProgressBar1{
+    position: relative;
+}
+
+.ProgressBar1, .ProgressBar2, .ProgressBar3 {
+    /* The width and height of your image */
+    width: 100px; height: 20px;
+}
+
+.ProgressBar1, .ProgressBar1 {
+    background: #bdbdbd url(/path/to/your-image.png) top left no-repeat;
+}
+            
+.ProgressBar3 {
+    position: absolute;
+    top:0; left:0;
+
+    padding-top: 0px;
+                
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+ /* Progress Bar */
+ 
+ .Reporting_UnSelectedTab
+{
+  background-color:#dde3f0;
+  color:Black;
+  font-size:smaller;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.Reporting_SelectedTab
+{
+  background-color:White;
+  color:Navy;
+  font-size:smaller;
+  padding-left:5px;
+  padding-right:5px;  
+  border-top:solid 1px black;
+  border-left:solid 1px black;
+  border-right:solid 1px black;
+}
+
+.Reporting_Normal
+{
+    font-size:medium;
+    color:Black;
+}
+
+
+.QuestionPopup {
+  position: absolute;
+  top: 0px;
+  bottom:0%;
+  left: 0;
+  right: 0%;
+  background-color:Black;
+  z-index: 98;
+  opacity:0.7;filter:alpha(opacity=70);
+  text-align:center;
+  vertical-align:middle;
+  display:none;  
+   height:800px;
+}
+
+.QuestionPopup2 
+{
+    position: absolute;
+    top: 10px;
+    /*bottom: 30%;*/
+    left: 100px;
+    right: 100px;
+    border:solid 1px black;
+    background-color:White;
+    z-index: 99;
+    font-size:medium;
+    background-color:White;
+    opacity:1;filter:alpha(opacity=100);
+  display:none;  
+ 
+}
+
+.QuestionPopupHeader
+{
+    height:25px;
+    background-image:url(/images/QuestionsBoxHeader.jpg);
+    width:100%;
+    color:White;
+}
+.QuestionPopupFooter
+{
+    height:10px;
+    width:100%;
+    background-image:url(/images/QuestionsBoxFooter.jpg);        
+    text-align:center;
+}
+
+.QuestionsButton
+ { background-image: url(/Images/button_bg_1502.jpg);
+	float:left;
+	width:150px;
+	background-repeat: no-repeat;
+	line-height: 28px;
+	color:White;
+	 text-align:center;
+	 text-decoration:none;
+	 font-weight:bold;
+	 font-size:small;
+     }
+     
+.ImportFBEventsButton, a.ImportFBEventsButton
+     {
+         background-image: url(/Images/button_bg_1502.jpg);
+	float:right;
+	width:150px;
+	background-repeat: no-repeat;
+	line-height: 28px;
+	color:White;
+	 text-align:center;
+	 text-decoration:none;
+	 font-weight:bold;
+	 font-size:small;
+     }
+ .QuestionSections
+ {
+     background-color:#ebecf0;
+ } 
+     
+.EditEvent_UnSelectedTab
+{
+  background-color:#F0D8FF;
+  color:Black;
+  font-size:smaller;
+  padding-left:5px;
+  padding-right:5px;
+  text-align:left;  
+}
+
+.EditEvent_SelectedTab
+{
+  background-color:White;
+  color:Navy;
+  font-size:smaller;
+  padding-left:5px;
+  padding-right:5px;    
+  border-left:solid 1px gray;
+  border-bottom:solid 1px gray;
+  border-top:solid 1px gray;
+  text-align:left;  
+}
+
+.AttendeeList_UnSelectedTab
+{
+  background-color:#F0D8FF;
+  color:Black;
+  font-size:small;
+  padding-left:5px;
+  padding-right:5px;
+  text-align:center; 
+}
+
+.AttendeeList_SelectedTab
+{
+  background-color:White;
+  color:Navy;
+  font-size:small;
+  padding-left:5px;
+  padding-right:5px;    
+  border-left:solid 1px gray;
+  border-right:solid 1px gray;
+  border-top:solid 1px gray;
+  text-align:center;  
+}
+
+.TextboxwithSuggestion
+{
+    color:Gray;
+}
+
+.TextboxwithSuggestionAfterclick
+{
+    color:Black;    
+}
+
+a.BackgroundImages:hover
+{
+    outline-color:Blue;
+    outline-style:solid;
+    outline-width:2px;
+}
+.BackgroundImages_Selected
+{
+    outline-color:Red;
+    outline-style:solid;
+    outline-width:2px;
+}
+
+.Mandatory_Star
+{
+    color:Red;
+    font-size:small;
+}
+
+.PaypalEmailMissing
+{    
+    color:Red;    
+}
+.Rssgetbox
+{
+    color:Gray;
+    white-space:pre-wrap;
+}
+.FAQ_Header
+{
+    color:#410067;
+    font-size:large;
+    font-weight:bolder;
+}
+.First_Time_UnSelectedTab
+{
+  background-color:White;
+  color:Gray;
+  font-size:smaller;
+  padding-left:5px;
+  padding-right:5px;
+}
+
+.First_Time_SelectedTab
+{
+  background-color:White;
+  color:Navy;
+  font-size:smaller;
+  padding-left:5px;
+  padding-right:5px;
+}
+.First_Time_Content
+{
+  color:Black;
+  font-size:small;
+  font-family:Arial;
+  text-align:center;
+}
+.First_Time_Big_Questions
+{
+    color:Black;
+    font-size:large;
+    font-weight:bold;
+}
+
+.Button_Stickout, a.Button_Stickout:link
+{
+background-image: url(/Images/button_bg_1502_Stickout.jpg);
+	width:100px;
+	background-repeat: no-repeat;
+	line-height: 19px;
+	margin-left:3px;
+	color:White;	 
+	 text-align:center;
+	 text-decoration:none;
+	 font-weight:bold;	 
+}
+
+.Activities_Text
+{
+    font-size:small;
+}
+.Activities_Date
+{
+    font-size:smaller;
+    color:Gray;
+}
+.Activities_Seeall
+{
+    font-size:small;
+    color:Blue;
+}
+
+.orderText
+            {
+                font: normal 12px Arial,Verdana;
+                margin-top: 6px;
+            }
+            .expandImage
+            {
+                display:inline;
+                background-image: url('<%= Page.ResolveUrl("~/Common/styles09/sprite09.gif")%>');
+                background-position: -596px -1191px;
+                background-repeat: no-repeat;
+                width: 15px;
+                height: 15px;
+            }
+            * html .expandImage
+            {
+                background-position: -596px -1194px;
+            }
+            * + html .expandImage
+            {
+                background-position: -596px -1194px;
+            }
+            
+            
+ 
+        .FacebookEvents
+        {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            background: #f2f2de;
+            font: normal 11px Arial, Verdana, Sans-serif;
+            width:400px;
+        }                
+        
+        fieldset
+        {
+            height: 150px;
+        }
+        
+        * + html fieldset
+        {
+            height: 154px;
+            width: 268px;
+        }
+        
+.Edit_Events_Tickets
+{
+  text-align:left;  
+}
+
+.Action_Background
+{
+	background-color:#F0D8FF;
+}

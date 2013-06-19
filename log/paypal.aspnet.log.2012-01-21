@@ -1,0 +1,29 @@
+﻿21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+21 Jan 2012 15:17:59 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+21 Jan 2012 15:17:59 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+21 Jan 2012 15:17:59 DEBUG [Config] TrustAll :True
+21 Jan 2012 15:17:59 DEBUG [Config] Endpoints loaded :12
+21 Jan 2012 15:18:01 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+21 Jan 2012 15:18:01 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+21 Jan 2012 15:18:10 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+21 Jan 2012 15:18:10 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+21 Jan 2012 15:18:19 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+21 Jan 2012 15:18:19 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+21 Jan 2012 15:19:32 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+21 Jan 2012 15:19:32 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+21 Jan 2012 15:19:40 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+21 Jan 2012 15:19:40 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+21 Jan 2012 15:19:49 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+21 Jan 2012 15:19:49 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+21 Jan 2012 15:21:47 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+21 Jan 2012 15:21:47 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/

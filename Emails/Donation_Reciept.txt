@@ -1,0 +1,97 @@
+﻿<table>
+	<tr>
+		<td style="color:#FF0000; text-decoration:underline; font-size:larger; font-weight:bold;">YOUR TRANSACTION IS COMPLETE</td>
+	</tr>
+	<tr>
+		<td><div style="margin-left:15px;max-width:300px;">CONFIRMATIONTEXT</div></td>
+	</tr>
+	<tr>
+		<td style="height:10px"></td>		
+	</tr>
+	<tr>
+		<td>
+			<table style="background-color:#410067; vertical-align:middle; border: 3px solid rgb(65, 0, 103); ">
+				<tr>
+					<td><center>
+						<table>
+							<tr>
+								<td style="color:#FFFFFF; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bolder; font-size:x-large;">EVENTNAME</td>
+							</tr>
+							<tr>	
+								<td >
+									<table style=" background-color:#FFFFFF; border: 1px solid rgb(204, 204, 204);">
+										<tr>
+											<td colspan="3"><b>QUANTITYPAID</b> <span style="font-size:small;">(TICKETSPURCHASEDDETAILS)</span></td>
+										</tr>
+										<tr>
+											<td><img runat=server width="100px" src="EVENTPIC" /></td>										
+											<td>
+												<table>													
+													<tr>
+														<td>Purchaser - FIRSTNAME LASTNAME</td>
+													</tr>
+													<tr>
+														<td>TXID</td>
+													</tr>
+												</table>
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+					<td align="right" style="color:#FFFFFF"><img runat=server height="25px" src="GROUPPIC" /> GROUPNAME's <span style="font-size:small;">Groupstore</span>
+					</td>
+				</tr>
+						</table>
+						</center>	
+					</td>					
+				</tr>
+				
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style=" font-size:small; font-weight:bold;">This is your proof of donation.</td>
+	</tr>
+	<tr>
+		<td style="height:10px"></td>
+	</tr>
+	<tr>
+		<td style="height:10px"></td>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td style="color:#410067; font-weight:bolder; font-size:large;">TRANSACTION DETAILS</td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Amount:</span> AMOUNTPAID, completed at TXTIME</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Quantity:</span> <b>QUANTITYPAID</b> (TICKETSPURCHASEDDETAILS)</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Purchaser:</span> FIRSTNAME LASTNAME</div></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"> <table width="250px">
+			<tr valign="bottom">				
+				<td align="right">
+				<a href="http://www.thegroupstore.com" target=_blank>
+			<img width="100px" src='http://app.thegroupstore.com/images/groupstore_Order_Logo2.png' />
+			</a>
+		</td>
+			</tr>
+			<tr>
+		<td colspan="2" align="right" style="font-size:smaller; color:#0000FF;">
+		  Empowering Groups to sell online.
+		</td>
+	</tr>
+		</table></td>		
+	</tr>	
+</table>

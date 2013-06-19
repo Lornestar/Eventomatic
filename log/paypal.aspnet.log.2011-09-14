@@ -1,0 +1,48 @@
+﻿14 Sep 2011 01:43:34 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 01:43:35 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 01:43:35 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 01:43:43 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 627 ms
+14 Sep 2011 01:44:40 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 01:44:40 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 01:44:40 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 01:44:48 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 318 ms
+14 Sep 2011 01:48:46 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 01:48:46 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 01:48:46 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 01:48:54 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 348 ms
+14 Sep 2011 01:50:22 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 01:50:22 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 01:50:22 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 01:50:30 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 854 ms
+14 Sep 2011 01:50:57 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 01:50:57 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 01:50:57 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 01:51:05 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 453 ms
+14 Sep 2011 01:56:10 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 01:56:10 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 01:56:10 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 01:56:20 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 116 ms
+14 Sep 2011 02:01:10 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 02:01:10 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 02:01:10 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 02:01:18 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 714 ms
+14 Sep 2011 02:02:18 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 02:02:18 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 02:02:18 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 02:02:27 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 59 ms
+14 Sep 2011 02:09:10 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 02:09:10 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 02:09:10 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 02:09:19 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 626 ms
+14 Sep 2011 02:10:20 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 02:10:20 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 02:10:20 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 02:10:27 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 450 ms
+14 Sep 2011 02:16:59 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 02:16:59 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 02:16:59 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 02:17:08 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 465 ms
+14 Sep 2011 02:38:15 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+14 Sep 2011 02:38:15 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+14 Sep 2011 02:38:15 INFO  [SOAPAPICaller] DoDirectPayment sent
+14 Sep 2011 02:38:24 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 538 ms

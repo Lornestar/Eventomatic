@@ -1,0 +1,54 @@
+﻿27 Aug 2011 14:04:10 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:04:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:04:11 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+27 Aug 2011 14:04:11 DEBUG [Config] TrustAll :True
+27 Aug 2011 14:04:11 DEBUG [Config] Endpoints loaded :12
+27 Aug 2011 14:04:13 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+27 Aug 2011 14:04:13 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+27 Aug 2011 14:04:13 INFO  [SOAPAPICaller] DoDirectPayment sent
+27 Aug 2011 14:04:16 INFO  [SOAPAPICaller] DoDirectPayment Ack : Failure Elapsed Time : 37 ms
+27 Aug 2011 14:04:16 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction cannot be processed.
+27 Aug 2011 14:06:27 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+27 Aug 2011 14:06:27 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+27 Aug 2011 14:06:27 INFO  [SOAPAPICaller] DoDirectPayment sent
+27 Aug 2011 14:06:29 INFO  [SOAPAPICaller] DoDirectPayment Ack : Failure Elapsed Time : 294 ms
+27 Aug 2011 14:06:29 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction cannot be processed.
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+27 Aug 2011 14:10:13 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+27 Aug 2011 14:10:13 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+27 Aug 2011 14:10:13 DEBUG [Config] TrustAll :True
+27 Aug 2011 14:10:13 DEBUG [Config] Endpoints loaded :12
+27 Aug 2011 14:10:14 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+27 Aug 2011 14:10:14 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+27 Aug 2011 14:10:14 INFO  [SOAPAPICaller] DoDirectPayment sent
+27 Aug 2011 14:10:17 INFO  [SOAPAPICaller] DoDirectPayment Ack : Failure Elapsed Time : 164 ms
+27 Aug 2011 14:10:17 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction cannot be processed.
+27 Aug 2011 14:10:49 INFO  [SOAPAPICaller] binding URL is: https://api-3t.paypal.com/2.0/
+27 Aug 2011 14:10:49 INFO  [SOAPAPICaller] binding URL is: https://api-aa-3t.paypal.com/2.0/
+27 Aug 2011 14:11:47 INFO  [SOAPAPICaller] DoDirectPayment sent
+27 Aug 2011 14:11:49 INFO  [SOAPAPICaller] DoDirectPayment Ack : Failure Elapsed Time : 895 ms
+27 Aug 2011 14:11:49 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction cannot be processed.
+27 Aug 2011 14:13:26 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+27 Aug 2011 14:13:26 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+27 Aug 2011 14:13:26 INFO  [SOAPAPICaller] DoDirectPayment sent
+27 Aug 2011 14:13:36 INFO  [SOAPAPICaller] DoDirectPayment Ack : Success Elapsed Time : 603 ms

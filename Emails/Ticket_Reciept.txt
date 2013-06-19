@@ -1,0 +1,77 @@
+﻿<table>
+	<tr>
+		<td style="color:#FF0000; text-decoration:underline; font-size:larger; font-weight:bold;">YOUR TRANSACTION IS COMPLETE</td>
+	</tr>
+    <tr>
+		<td style=" font-size:small; font-weight:bold;">Your e-Tickets are Attached to this email.
+        <br />Please Print the attached e-Tickets to present for admission to the event.
+		</td>
+	</tr>
+	<tr>
+		<td><div style="margin-left:15px;max-width:300px;">Message from the event host: <br />CONFIRMATIONTEXT</div></td>
+	</tr>		
+	<tr>
+		<td style="height:10px"></td>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td style="color:#410067; font-weight:bolder; font-size:large;">EVENT DETAILS</td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">What:</span> EVENTNAME</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Where:</span> LOCATION, STREET, CITY</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">When:</span> EVENTBEGINDATE</div></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="height:10px"></td>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td style="color:#410067; font-weight:bolder; font-size:large;">TRANSACTION DETAILS</td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Amount:</span> AMOUNTPAID, completed at TXTIME</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Quantity:</span> <b>QUANTITYPAID</b></div></td>
+				</tr>
+                <tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Purchase Details:</span>(TICKETSPURCHASEDDETAILS)</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">Purchaser:</span> FIRSTNAME LASTNAME</div></td>
+				</tr>
+                <tr>
+					<td><div style="margin-left:15px;"><span style=" color:#410067; font-weight:bold;">PayPal Transaction ID:</span>TXID</div></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"> <table width="350px">
+			<tr valign="bottom">				
+				<td align="right">
+				<a href="http://www.thegroupstore.com" target=_blank>
+			<img width="100px" src='http://www.thegroupstore.com/images/groupstore_Order_Logo2.png' />
+			</a>
+		</td>
+			</tr>
+			<tr>
+		<td colspan="2" align="right" style="font-size:smaller; color:#0000FF;">
+		    Do you run events?<br /> Start Selling your event online in minutes with 
+            Groupstore.</td>
+	</tr>
+		</table></td>		
+	</tr>	
+</table>

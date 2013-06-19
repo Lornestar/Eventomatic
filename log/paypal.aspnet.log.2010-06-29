@@ -1,0 +1,159 @@
+﻿29 Jun 2010 00:00:06 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 00:00:06 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 00:00:06 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 00:00:06 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:00:07 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:00:07 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+29 Jun 2010 00:00:07 DEBUG [Config] TrustAll :True
+29 Jun 2010 00:00:07 DEBUG [Config] Endpoints loaded :12
+29 Jun 2010 00:00:13 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:00:13 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:00:13 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:00:14 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 507 ms
+29 Jun 2010 00:00:14 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:00:14 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:00:14 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:00:14 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:00:15 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 731 ms
+29 Jun 2010 00:00:15 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:00:15 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:00:15 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:00:15 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:00:16 INFO  [SOAPAPICaller] MassPay Ack : Success Elapsed Time : 705 ms
+29 Jun 2010 00:02:39 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:02:39 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:02:39 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:02:40 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 144 ms
+29 Jun 2010 00:02:40 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:03:08 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:03:08 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:03:08 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:03:09 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 727 ms
+29 Jun 2010 00:03:09 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:03:09 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:03:09 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:03:09 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:03:13 INFO  [SOAPAPICaller] MassPay Ack : Success Elapsed Time : 435 ms
+29 Jun 2010 00:09:20 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:09:20 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:09:20 INFO  [SOAPAPICaller] DoDirectPayment sent
+29 Jun 2010 00:09:22 INFO  [SOAPAPICaller] DoDirectPayment Ack : Failure Elapsed Time : 264 ms
+29 Jun 2010 00:09:22 INFO  [SOAPAPICaller] DoDirectPayment Error : This transaction cannot be processed due to an unsupported currency.
+29 Jun 2010 00:20:22 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:20:22 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:20:22 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 252 ms
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 528 ms
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:20:23 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:20:24 INFO  [SOAPAPICaller] MassPay Ack : Success Elapsed Time : 732 ms
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 00:21:49 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 00:21:49 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+29 Jun 2010 00:21:49 DEBUG [Config] TrustAll :True
+29 Jun 2010 00:21:49 DEBUG [Config] Endpoints loaded :12
+29 Jun 2010 00:21:55 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:21:55 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:21:55 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:21:56 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 296 ms
+29 Jun 2010 00:21:56 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:21:56 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:21:56 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:21:56 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:21:56 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 641 ms
+29 Jun 2010 00:21:57 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 00:21:57 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 00:21:57 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 00:21:57 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 00:21:57 INFO  [SOAPAPICaller] MassPay Ack : Success Elapsed Time : 647 ms
+29 Jun 2010 11:07:10 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 11:07:11 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 11:07:11 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+29 Jun 2010 11:07:11 DEBUG [Config] TrustAll :True
+29 Jun 2010 11:07:11 DEBUG [Config] Endpoints loaded :12
+29 Jun 2010 11:07:20 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 11:07:20 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 11:07:20 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 11:07:21 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 545 ms
+29 Jun 2010 11:07:21 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 11:07:52 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 11:07:52 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 11:07:52 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 11:07:53 INFO  [SOAPAPICaller] MassPay Ack : Success Elapsed Time : 810 ms
+29 Jun 2010 15:47:50 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 15:47:50 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 15:47:50 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 15:47:50 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 15:47:51 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 15:47:51 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+29 Jun 2010 15:47:51 DEBUG [Config] TrustAll :True
+29 Jun 2010 15:47:51 DEBUG [Config] Endpoints loaded :12
+29 Jun 2010 15:47:57 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 15:47:57 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 15:47:57 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 15:47:59 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 309 ms
+29 Jun 2010 15:47:59 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapi-threeToken', environment: 'live', port: 'PayPalAPI'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'live-paypalapiaa-threeToken', environment: 'live', port: 'PayPalAPIAA'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapi-threeToken', environment: 'sandbox', port: 'PayPalAPI'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'sandbox-paypalapiaa-threeToken', environment: 'sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 17:19:55 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 17:19:56 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 17:19:56 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapi-threeToken', environment: 'beta-sandbox', port: 'PayPalAPI'
+29 Jun 2010 17:19:56 DEBUG [ConfigSectionParser] Found endpoint : 'beta-sandbox-paypalapiaa-threeToken', environment: 'beta-sandbox', port: 'PayPalAPIAA'
+29 Jun 2010 17:19:56 DEBUG [Config] Current assembly version: paypal_base, Version=5.6.60.0, Culture=neutral, PublicKeyToken=b37401294aaf5617
+29 Jun 2010 17:19:56 DEBUG [Config] TrustAll :True
+29 Jun 2010 17:19:56 DEBUG [Config] Endpoints loaded :12
+29 Jun 2010 17:20:07 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 17:20:07 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 17:20:07 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 17:20:09 INFO  [SOAPAPICaller] MassPay Ack : Failure Elapsed Time : 604 ms
+29 Jun 2010 17:20:09 INFO  [SOAPAPICaller] MassPay Error : The account does not have sufficient funds to do this masspay
+29 Jun 2010 17:20:34 INFO  [SOAPAPICaller] binding URL is: https://api.sandbox.paypal.com/2.0/
+29 Jun 2010 17:20:34 INFO  [SOAPAPICaller] binding URL is: https://api-aa.sandbox.paypal.com/2.0/
+29 Jun 2010 17:20:34 INFO  [SOAPAPICaller] MassPay sent
+29 Jun 2010 17:20:35 INFO  [SOAPAPICaller] MassPay Ack : Success Elapsed Time : 702 ms

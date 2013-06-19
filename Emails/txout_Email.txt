@@ -1,0 +1,9 @@
+﻿<table>
+    <tr>
+        <td>Money transaction from Groupstore - Time TIMETX</td>
+    </tr>    
+    <tr>
+        <td>PAGEMESSAGE
+        </td>
+    </tr>
+</table>

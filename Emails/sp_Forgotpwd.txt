@@ -1,0 +1,26 @@
+﻿<table>
+    <tr>
+        <td>Dear NAME,</td>
+    </tr>    
+    <tr>
+        <td>Someone has requested a password reminder for your email.  Below is your current Snappay Password. </td>
+    </tr>
+    <tr>
+        <td>Your Password is - PWD</td>
+    </tr>
+    <tr>
+        <td>Best Regards,<br />Snappay</td>
+    </tr>
+    <tr>
+		<td align="right"> <table width="350px">
+			<tr valign="bottom">				
+				<td align="right">
+				<a href="http://www.thegroupstore.com" target=_blank>
+			<img width="100px" src='http://www.snap-pay.com/images/snappay_logo.png' />
+			</a>
+		</td>
+		</tr>
+        </table>
+        </td>
+	</tr>
+</table>

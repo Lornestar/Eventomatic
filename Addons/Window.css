@@ -1,0 +1,23 @@
+﻿html, body, form
+        {
+            padding: 0;
+            margin: 0;
+            height: 100%;
+            background: #f2f2de;
+        }
+        
+        body
+        {
+            font: normal 11px Arial, Verdana, Sans-serif;
+        }
+        
+        fieldset
+        {
+            height: 150px;
+        }
+        
+        * + html fieldset
+        {
+            height: 154px;
+            width: 268px;
+        }

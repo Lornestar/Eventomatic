@@ -1,0 +1,13 @@
+﻿<table>
+    <tr>
+        <td>Error has occured on Groupstore - Time TIMEERROR</td>
+    </tr>
+    <tr>
+        <td>On following url - URLERROR</td>
+    </tr>
+    <tr>
+        <td>Below are details: 
+            <br />DETAILSERROR
+        </td>
+    </tr>
+</table>

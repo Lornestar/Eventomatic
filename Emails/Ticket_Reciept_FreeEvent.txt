@@ -1,0 +1,133 @@
+﻿<table>
+	<tr>
+		<td style="color:#FF0000; text-decoration:underline; font-size:larger; font-weight:bold;">YOUR PURCHASE IS COMPLETE</td>
+	</tr>
+	<tr>
+		<td><div style="margin-left:15px;">Thank you for using <b>Sell <span style="color:#FF0000;font-style:italic;">it</span> All</b></div></td>
+	</tr>
+	<tr>
+		<td style="height:10px"></td>		
+	</tr>
+	<tr>
+		<td>
+			<table style="background-color:#3B5998; vertical-align:middle; border: 3px solid rgb(59, 89, 152);  ">
+				<tr>
+					<td><center>
+						<table>
+							<tr>
+								<td style="color:#FFFFFF; font-family:Verdana, Arial, Helvetica, sans-serif; font-weight:bolder; font-size:x-large;">EVENTNAME</td>
+							</tr>
+							<tr>	
+								<td >
+									<table style=" background-color:#FFFFFF; border: 1px solid rgb(204, 204, 204);">
+										<tr>
+											<td colspan="3"><b>Admit QUANTITYPAID</b> <span style="font-size:small;">(TICKETSPURCHASEDDETAILS)</span></td>
+										</tr>
+										<tr>
+											<td><img runat=server width="100px" src="EVENTPIC" /></td>										
+											<td>
+												<table>
+													<tr>
+														<td>LOCATION</td>
+													</tr>
+													<tr>
+														<td>STREET</td>
+													</tr>
+													<tr>
+														<td>EVENTBEGINDATE</td>
+													</tr>
+													<tr>
+														<td>Attendee - FIRSTNAME LASTNAME</td>
+													</tr>
+												</table>
+											</td>
+											<td><img src='http://www.sellitallstore.com/images/sellitall_logo_email.jpg' />
+											</td>
+										</tr>
+									</table>
+								</td>
+							</tr>
+							<tr>
+					<td align="right" style="color:#FFFFFF"><img runat=server height="25px" src="GROUPPIC" /> GROUPNAME's Sell it All Store
+					</td>
+				</tr>
+						</table>
+						</center>	
+					</td>
+					<td>
+						<div style="color:#FFFFFF; font-weight:bolder; font-size:large;">TICKET<br />
+						#TICKETNUMBER</div>
+					</td>
+				</tr>
+				
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style=" font-size:small; font-weight:bold;">This is your proof of purchase, no physical ticket will be sent.<br />Please present this page for admission to the event.
+		</td>
+	</tr>
+	<tr>
+		<td style="height:10px"></td>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td style="color:#000099; font-weight:bolder; font-size:large;">EVENT DETAILS</td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#000099; font-weight:bold;">What:</span> EVENTNAME</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#000099; font-weight:bold;">Where:</span> LOCATION, STREET, CITY</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#000099; font-weight:bold;">When:</span> EVENTBEGINDATE</div></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td style="height:10px"></td>
+	</tr>
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td style="color:#000099; font-weight:bolder; font-size:large;">TRANSACTION DETAILS</td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#000099; font-weight:bold;">Quantity:</span> <b>QUANTITYPAID</b> (TICKETSPURCHASEDDETAILS)</div></td>
+				</tr>
+				<tr>
+					<td><div style="margin-left:15px;"><span style=" color:#000099; font-weight:bold;">Attendee:</span> FIRSTNAME LASTNAME</div></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td align="right"> <table width="250px">
+			<tr valign="bottom">
+				<td align="right">
+				<table>
+					<tr>
+						<td style="font-size:small;">You <b>Plan <span style="color:#FF0000;font-style:italic;">it</span> All</b></td>
+					</tr>
+					<tr>
+						<td>We <b>Sell <span style="color:#FF0000;font-style:italic;">it</span> All</b></td>
+					</tr>
+				</table>
+				</td>
+				<td>
+			<img width="100px" src='http://www.sellitallstore.com/images/sellitall_logo_emailfooter.jpg' />
+		</td>
+			</tr>
+			<tr>
+		<td colspan="2" style="font-size:smaller; color:#0000FF;"><center>
+		  For your Events and Performances
+		</center></td>
+	</tr>
+		</table></td>		
+	</tr>	
+</table>

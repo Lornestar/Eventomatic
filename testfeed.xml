@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<rss version="2.0">
+  <channel>
+    <title>Groupstore Rss</title>
+    <description>Groupstore Rss</description>
+    <link>http://www.thegroupstore.com/</link>
+    <pubDate>Sun, 17 Jan 2010 00:43:31 GMT</pubDate>
+    <docs>http://backend.userland.com/rss</docs>
+    <generator>RSS.NET: http://www.rssdotnet.com/</generator>
+    <item>
+      <title>Back To Class-y</title>
+      <description>test324</description>
+      <pubDate>Tue, 16 Jun 2009 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>Test Event</title>
+      <description>good times to be</description>
+      <pubDate>Sun, 19 Jul 2009 12:51:49 GMT</pubDate>
+    </item>
+    <item>
+      <title>DIFF - DeGroote International Film Festival</title>
+      <description>The MBA Association would like to invite you to the 1st annual DIFF - The D</description>
+      <pubDate>Fri, 08 Jan 2010 17:30:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>DIFF - DeGroote International Film Festival</title>
+      <description>The MBA Association would like to invite you to the 1st annual DIFF - The D</description>
+      <pubDate>Fri, 08 Jan 2010 17:30:00 GMT</pubDate>
+    </item>
+  </channel>
+</rss>
