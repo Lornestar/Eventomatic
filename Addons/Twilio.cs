@@ -13,8 +13,7 @@ namespace Eventomatic.Addons
         const string API_VERSION = "2010-04-01";
 
         // Twilio AccountSid and AuthToken
-        const string ACCOUNT_SID = "AC2818cd272973bfeff59364e898cd73d5";
-        const string ACCOUNT_TOKEN = "43d4406acee090878e3dfeb179d45333";
+        
 
         // Outgoing Caller ID previously validated with Twilio
         const string CALLER_ID = "8189635211";
